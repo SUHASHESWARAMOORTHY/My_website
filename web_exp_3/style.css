@@ -1,0 +1,38 @@
+
+body {
+  font-family: Verdana, sans-serif;
+  background: linear-gradient(to right, #f8f9fa, #e0f7fa);
+  color: #333;
+  text-align: center;
+}
+
+
+nav {
+  background: linear-gradient(to right, #00796b, #004d40);
+  padding: 10px 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  transition: background 0.3s, color 0.3s;
+  border-radius: 8px;
+}
+
+.navbar li a:hover,
+.navbar li a:focus {
+  background: #000fff;
+  color: #fff000;
+}
+
+
+
